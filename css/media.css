@@ -252,8 +252,9 @@
     }
 
     .hero__descr { 
-        padding-left: 20px;
-       font-size: 9px;
+        padding-left: 15px;
+       font-size: 10px;
+       background-size: 10px;
     }
 
     .hero__descr:not(:last-child) {
