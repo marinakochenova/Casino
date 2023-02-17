@@ -1,0 +1,395 @@
+@media (max-width: 1196px) {
+    .pays img {
+        width: 80px;
+        
+    }
+
+    .offer__item::after {
+        right: 76%;
+    }
+}
+
+@media (max-width: 1020px) {
+
+    .container {
+        padding: 40px 30px;
+    }
+    .hero__title {
+        font-size: 50px;
+        margin-bottom: 15px;
+    }
+
+    .hero__text {
+        margin-bottom: 15px;
+        font-size: 19px;
+    }
+
+    .hero__descr {
+        font-size: 15px;
+    }
+
+    .offer__item-subtitle {
+        font-size: 13px;
+    }
+
+    .offer__item {
+        justify-content: space-around;
+    }
+
+    .logo {
+        width: 22%;
+    }
+
+    .logo svg {
+        width: 150px;
+        height: 80px;
+        display: block;
+    }
+
+    .item__benefits:not(:nth-child(2n)) {
+        margin-bottom: 8px;
+        font-size: 23px;
+    }
+
+    .item__stars svg {
+        width: 15px;
+        height: 15px;
+        display: inline-block;
+    }
+
+    .item__rating {
+        font-size: 15px;
+    }
+
+    .pays {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .pays img {
+        height: 30px;
+    }
+
+    .item__go {
+        padding: 15px 15px;
+    }
+
+    .info__title {
+        margin-bottom: 25px;
+        font-size: 35px;
+    }
+
+    .info__text {
+        margin-bottom: 15px;
+        font-size: 15px;
+    }
+
+    .footer__top svg {
+        width: 17%;
+    }
+
+    .footer__top svg:not(:last-child) {
+        margin-right: 20px;
+    }
+
+    .footer__bottom {
+        padding-top: 25px;
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 900px) {
+
+    .main::before {
+       content: url(../img/bc2-800.webp);
+    }
+
+    .hero__title {
+        font-size: 38px;
+    }
+
+    .hero__text {
+        font-size: 14px;
+    }
+
+    .hero__descr {
+        font-size: 12px;
+    }
+
+    .offer__top {
+        display: none;
+    }
+
+    .offer__item {
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .offer__item:hover {
+        transform: scale(1.02);
+    }
+
+    .offer__item::after {
+        right: 28%;
+    }
+
+    .item__part {
+        max-width: 100%;
+    }
+
+    .logo {
+        margin-right: 0;
+        width: 26%;
+    }
+
+    .offer__item:last-child .logo {
+        width: 28%;
+    }
+
+    .logo svg {
+        width: 180px;
+        height: 100px;
+    }
+
+    .item__part:nth-child(3) {
+        width: 21%;
+    }
+
+    .pays {
+        width: 69%;
+        justify-content: space-between;
+    }
+
+    .pays img {
+        width: 65px;
+    }
+
+    .info__title {
+        margin-bottom: 15px;
+        font-size: 25px;
+    }
+
+    .info__text {
+        margin-bottom: 10px;
+        font-size: 13px;
+    }
+
+    .footer__bottom {
+        line-height: 130%;
+        padding-top: 15px;
+        font-size: 11px;
+    }
+
+    .footer__container {
+        padding-bottom: 15px;
+    }
+    
+}
+
+@media (max-width: 690px) {
+
+    .offer__item::after {
+        bottom: -2px;
+        left: 10px;
+        right: 58%;
+        transform: none;
+        background: -webkit-gradient(linear, left top, right top, from(#112d5e), to(#ffe220));
+        /* border-radius: 20px; */
+    }
+
+    .logo {
+        width: 40%;
+    }
+
+    .logo svg {
+        width: 100%;
+    }
+
+    .item__part:nth-child(2) {
+        width: 54%;
+    }
+
+    .item__part:nth-child(3) {
+        width: 37%;
+    }
+
+    .pays {
+        width: 55%;
+        justify-content: center;
+    }
+
+    .pays img {
+        width: 74px;
+        height: 34px;
+    }
+
+    .item__part:last-child {
+        width: 38%;
+    }
+
+    .offer__item:last-child .logo {
+        width: 38%;
+        padding-top: 20px;
+    }
+}
+
+@media (max-width: 520px) {
+
+    .main::before {
+        content: url(../img/bc2-480.webp);
+    }
+
+    .container {
+        padding: 25px 30px;
+    }
+
+    .hero__title {
+        font-size: 29px;
+    }
+
+    .hero__text {
+        font-size: 12px;
+    }
+
+    .hero__descr { 
+        padding-left: 20px;
+       font-size: 9px;
+    }
+
+    .hero__descr:not(:last-child) {
+        margin-right: 15px;
+    }
+
+    .offer__item::after {
+        left: 44%;
+        right: -1%;
+        background: -webkit-gradient(linear, left top, right top, from(#ee9800), to(#ffe220));
+        border-top-right-radius: 8px;
+        border-bottom-right-radius: 8px;
+    }
+
+    .offer__item:last-child {
+        height: 204px;
+    }
+
+    .item__stars {
+        margin-bottom: 0;
+    }
+
+    .item__rating {
+        font-size: 13px;
+    }
+
+    .item__stars svg {
+        width: 13px;
+        height: 13px;
+    }
+
+    .pays img {
+        width: 60px;
+        height: 23px;
+    }
+
+    .item__part:last-child {
+        width: 40%;
+    }
+
+    .item__go {
+        padding: 10px 28px;
+        font-size: 14px;
+    }
+
+    .item__benefits:not(:nth-child(2n)) {
+        margin-bottom: 6px;
+        font-size: 21px;
+        filter: drop-shadow(2px 1px 3px gray);
+    }
+
+    .item__benefits:nth-child(2n) {
+        font-size: 15px;
+        font-weight: 600;
+    }
+
+    .info__title {
+        font-size: 20px;
+    }
+
+    .info__text {
+        font-size: 10px;
+    }
+
+    .footer__top {
+        padding-bottom: 15px;
+    }
+
+    .footer__top svg:not(:last-child) {
+        margin-right: 12px;
+    }
+
+    .footer__bottom {
+        padding-top: 15px;
+        font-size: 8px;
+    }
+
+    .footer__container {
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+}
+
+@media (max-width: 475px) {
+
+    .hero__descr {
+
+        font-size: 7px;
+    }
+
+    .logo {
+        width: 100%;
+    }
+
+    .logo svg {
+        height: 80px;
+    }
+
+    .offer__item::after {
+        left: 0;
+        right: -1px;
+        border-bottom-right-radius: 0;
+        border-top-right-radius: 8px;
+        border-top-left-radius: 8px;
+        bottom: 55%;
+    }
+
+    .offer__item:last-child .logo {
+        width: 100%;
+        padding-top: 22px;
+    }
+
+    .offer__item:last-child {
+        height: 256px;
+    }
+
+    .item__part:nth-child(3) {
+        padding-top: 35px;
+    }
+
+    .item__part:nth-child(2) {
+        width: 54%;
+        padding-top: 35px;
+    }
+
+    .item__benefits:not(:nth-child(2n)) {
+        font-size: 18px;
+        line-height: 22px;
+    }
+
+    .pays img {
+        height: 20px;
+        width: 55px;
+    }
+
+    .item__go {
+        font-size: 12px;
+    }
+}
